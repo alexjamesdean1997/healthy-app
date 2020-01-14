@@ -1,0 +1,342 @@
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: #F4F7F8;
+  margin: 0;
+  color: #333333;
+  font-size: 13px;
+  overflow-x: hidden;
+}
+
+main {
+  max-width: 1200px;
+  margin: auto;
+  padding: 90px 0;
+}
+
+h1 {
+  font-weight: 100;
+  text-align: center;
+  padding: 20px 0 50px;
+  font-size: 40px;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 32px;
+  padding: 20px 20px 40px 0;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 200;
+  text-transform: uppercase;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+}
+
+h4 {
+  font-size: 14px;
+  margin: 12px 0;
+  font-weight: 700;
+}
+
+nav {
+  background: white;
+  height: 70px;
+  -webkit-box-shadow: 0px 0px 16px #ddd;
+          box-shadow: 0px 0px 16px #ddd;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+nav ol {
+  max-width: 1200px;
+  margin: auto;
+}
+
+nav ol li {
+  list-style: none;
+}
+
+nav ol li a {
+  height: 100%;
+  margin: 5px;
+}
+
+nav ol li a img {
+  height: 50px;
+  width: auto;
+  margin-top: 9px;
+}
+
+section {
+  margin: 0 0 60px 0;
+}
+
+.slick-list {
+  width: calc(((100vw - 1200px) / 2) + 1192px);
+}
+
+@media screen and (max-width: 1200PX) {
+  .slick-list {
+    width: auto;
+  }
+}
+
+#carousel .day {
+  padding: 30px 22px;
+  background: #ffffff;
+  border-radius: 8px;
+  -webkit-box-shadow: 0px 0px 10px #ddd;
+          box-shadow: 0px 0px 10px #ddd;
+  height: auto;
+  margin: 10px;
+  /*
+        .portion:before{
+            content: "";
+            height: 22px;
+            width: 22px;
+            background: green;
+            border-radius: 100%;
+            position: absolute;
+            top: -4px;
+            left: 33%;
+            z-index: -2;
+        }
+*/
+}
+
+#carousel .day .food {
+  display: inline-block;
+  width: 80%;
+  padding: 0 0 0 4%;
+}
+
+#carousel .day .portion {
+  font-size: 11px;
+  display: inline-block;
+  width: 16%;
+  text-align: center;
+  padding-bottom: 10px;
+  position: relative;
+  color: white;
+  font-weight: 700;
+  z-index: 3;
+}
+
+#carousel .day .badge {
+  background-color: #015d00;
+  border-radius: 10px;
+  color: white;
+  display: inline-block;
+  font-size: 11px;
+  line-height: 1;
+  padding: 5px 8px;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.arrows {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.arrows .slick-prev, .arrows .slick-next {
+  padding: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  position: initial !important;
+  font-size: 16px;
+  color: #333333;
+  text-transform: uppercase;
+}
+
+.slick-prev:before, .slick-next:before {
+  display: none;
+}
+
+.slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
+  color: #015d00 !important;
+}
+
+form {
+  padding: 20px 20px;
+  background: #ffffff;
+  border-radius: 8px;
+  -webkit-box-shadow: 0px 0px 10px #ddd;
+          box-shadow: 0px 0px 10px #ddd;
+}
+
+form .form-row {
+  padding: 0 0 10px 0;
+}
+
+form h3 {
+  text-transform: none;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+form h4 {
+  width: 100%;
+}
+
+form .add-btn {
+  background: none;
+  color: #166596;
+  border: none;
+  padding: 0;
+  outline: inherit;
+}
+
+form .meal-container {
+  margin: 30px 0;
+}
+
+form .meal-row {
+  padding: 5px 0 10px;
+}
+
+form .submit-button {
+  border-radius: 20px;
+  border: 1px solid black;
+  padding: 5px 20px;
+}
+
+form .submit-button:hover {
+  border: 1px solid #015d00;
+  background-color: #015d00;
+  color: white;
+}
+
+input[type="text"], .x {
+  height: 32px;
+}
+
+.select-css {
+  display: block;
+  color: #333;
+  line-height: 1.3;
+  padding: .6em 1.4em .5em .8em;
+  width: 100%;
+  max-width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  border: 1px solid #333;
+  border-radius: .5em;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #fff;
+  background-image: url("../img/arrow.png");
+  background-repeat: no-repeat;
+  background-position: right .7em top 50%, 0 0;
+  background-size: 7px 10px;
+}
+
+.select-css::-ms-expand {
+  display: none;
+}
+
+.select-css:focus {
+  outline: none;
+}
+
+.select-css option {
+  font-weight: normal;
+}
+
+.uptake-week {
+  padding: 0;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.uptake-day {
+  width: 100%;
+  padding: 20px 20px;
+  background: #ffffff;
+  border-radius: 8px;
+  -webkit-box-shadow: 0px 0px 10px #ddd;
+  box-shadow: 0px 0px 10px #ddd;
+}
+
+.fit-content {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.drop-menu {
+  width: 100%;
+  text-align: left;
+  background: transparent;
+  color: #333;
+  border: 0;
+  position: relative;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.drop-menu:hover, .drop-menu:focus, .drop-menu:active {
+  color: #333;
+  background: transparent;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.drop-menu:after {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-image: url("../img/arrow.png");
+  background-size: 10px 15px;
+  width: 10px;
+  height: 15px;
+  content: "";
+}
+
+.card {
+  border: 0;
+  padding: 0;
+  margin-top: 12px;
+}
+
+.delete-button {
+  color: red;
+  border: 0;
+  background: transparent;
+  padding: 0;
+}
+
+.delete-row {
+  opacity: 0.6;
+  border: none;
+  color: red;
+  padding: 0;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.delete-row:hover {
+  opacity: 1;
+}
+/*# sourceMappingURL=style.css.map */
