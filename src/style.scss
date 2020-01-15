@@ -16,6 +16,11 @@ main{
     max-width: 1200px;
     margin: auto;
     padding: 90px 0;
+
+    @media (max-width: 1200px) {
+        padding: 90px 5%;
+    }
+
 }
 
 h1{
@@ -44,6 +49,15 @@ h4{
     font-size: 14px;
     margin: 12px 0;
     font-weight: 700;
+}
+
+p{
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+button{
+    background-color: transparent;
 }
 
 nav{
