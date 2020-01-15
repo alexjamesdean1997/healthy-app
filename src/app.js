@@ -28,9 +28,9 @@ $(document).ready(function () {
 
 
     $(".slick-prev").prependTo(".prev");
-    $(".slick-prev").text("précédent");
+    $(".slick-prev").text("previous");
     $(".slick-next").appendTo(".next");
-    $(".slick-next").text("suivant");
+    $(".slick-next").text("next");
 
 
     // FORM
@@ -224,7 +224,7 @@ function showValues() {
         // create a uptake day element
         let uptakeWeek = document.getElementById('uptakeWeek');
         let uptakedayContainer = document.createElement('div');
-        uptakedayContainer.classList.add("spanx-3", "fit-content", "row", "uptake-container");
+        uptakedayContainer.classList.add("spanx-row", "lg:spanx-3", "fit-content", "row", "uptake-container");
         //uptakedayContainer.id = getDay;
         uptakeWeek.append(uptakedayContainer);
 
@@ -301,6 +301,5 @@ function deleteDay(e) {
 
 function newUptake() {
     let upcake = new HappyMeals;
-
     console.log(upcake);
 }

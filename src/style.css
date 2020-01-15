@@ -18,6 +18,12 @@ main {
   padding: 90px 0;
 }
 
+@media (max-width: 1200px) {
+  main {
+    padding: 90px 5%;
+  }
+}
+
 h1 {
   font-weight: 100;
   text-align: center;
@@ -44,6 +50,15 @@ h4 {
   font-size: 14px;
   margin: 12px 0;
   font-weight: 700;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+
+button {
+  background-color: transparent;
 }
 
 nav {
