@@ -17,4 +17,6 @@ HTML, SCSS & Javascript.
 Jquery.
 
 ### Frameworks
-Matrix (Framework SCSS créé par Maël Querré et Alexandre Dean) pour le positionnement responsive et Bootstrap pour les dropdowns.
+- Matrix (Framework SCSS créé par Maël Querré et Alexandre Dean) pour le positionnement responsive.
+- Slick pour le carrousel.
+- Bootstrap pour les dropdowns.
