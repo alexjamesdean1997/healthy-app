@@ -53,7 +53,9 @@ h4{
 
 p{
     font-size: 16px;
-    margin-bottom: 50px;
+    &.explanation{
+        margin-bottom: 50px;
+    }
 }
 
 button{
